@@ -41,7 +41,7 @@ public abstract class Operation {
 	
 	public static Operation parseOperator(String o) {
 		
-		Operation[] ops = new Operation[] {new Addition(), new Multiplication()};
+		Operation[] ops = new Operation[] {new Addition(), new Multiplication(), new Subtraction()};
 		for (Operation op : ops) {
 			if(o.equals(op.getOperator())) {
 				return op;
