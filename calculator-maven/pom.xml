@@ -30,7 +30,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>calculator.Calculator</mainClass>
+              <mainClass>calculator.Calcolator</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
